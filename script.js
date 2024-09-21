@@ -1,9 +1,9 @@
-const a = 6;
+const a = prompt('Masukkan Angka Anda: ');
 
 if(a === 6) {
-  console.log('Benar Itu Adalah Angka 6);
+  console.log(`Angka yang Anda Masukkan {a} dan angka yang benarnya adalah 6`);
 } else {
-  console.log('Salah Itu Bukan Angka 6);
+  console.log('Silakan Masukkan Angka');
 }
 
 console.log('Belajar Github');
